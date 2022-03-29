@@ -21,14 +21,14 @@ body {
     border-radius: 50px;
 }
 
-#question-heading {
+.question-heading {
     margin: 2rem auto;
     padding: 4rem 3rem 1rem;
     text-align: center;
     font-size: 200%;
 }
 
-#question-number {
+.question-number {
     padding: 0;
     margin: 0;
     text-align: center;
@@ -45,6 +45,7 @@ body {
     text-align: center;
     background-color: beige;
     box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 128, 0.5);
+    cursor: pointer;
 }
 
 .answer-div:hover {
@@ -79,6 +80,7 @@ body {
     border-radius: 20px;
     border: 3px solid navy;
     box-shadow: 0px 0px 3px 3px rgba(0, 0, 128, 0.5);
+    cursor: pointer;
 }
 
 .buttons:hover {
