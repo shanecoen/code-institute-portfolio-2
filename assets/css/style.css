@@ -5,8 +5,9 @@
 }
 
 body {
-    font: 600 120%/1.5 'Raleway', 'sans-serif';
-    text-transform: uppercase;
+    font: 600 110%/1.5 'Raleway', 'sans-serif';
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
     background-color: rgba(0, 0, 128, 0.2);
 }
 
@@ -22,8 +23,9 @@ body {
 
 #question-heading {
     margin: 2rem auto;
-    padding: 2rem;
+    padding: 4rem 3rem 1rem;
     text-align: center;
+    font-size: 200%;
 }
 
 #question-number {
@@ -37,9 +39,16 @@ body {
     width: 35%;
     margin: 3rem auto;
     padding: 1.5rem;
-    border: 1px solid beige;
+    color: navy;
+    border: 1px solid navy;
+    border-radius: 20px;
     text-align: center;
     background-color: beige;
+    box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 128, 0.5);
+}
+
+.answer-div:hover {
+    transform: scale(1.1);
 }
 
 .answer-left {
@@ -63,6 +72,9 @@ body {
     margin: 2rem;
     text-transform: uppercase;
     background-color: navy;
+    font: 600 70%/1.5 'Raleway', 'sans-serif';
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
     color: beige;
     border-radius: 20px;
     border: 3px solid navy;
