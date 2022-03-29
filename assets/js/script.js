@@ -51,4 +51,6 @@ let questions = [
     ]}
 ]
 
-console.log("hello");
+// Onlick events for Restart and Submit buttons 
+restartBtn.addEventListener('click', restart);
+submitBtn.addEventListener('click', submit);
