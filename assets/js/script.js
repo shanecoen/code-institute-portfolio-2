@@ -12,55 +12,56 @@ let submitBtn = document.getElementById('button-submit');
 let startingQuestion = 0;
 let score = 0;
 
-
-
 // Quiz Questions
-const questions = [{
-    id: 0,
-    question: "What is the capital of Ireland?",
-    answers: [
-        {option: "Dublin", answer: true},
-        {option: "London", answer: false},
-        {option: "Paris", answer: false},
-        {option: "Barcelona", answer: false}
-    ]},
+const questions = [
+    
+    {
+        "question": "What is the capital of Ireland?",
+        "answerOne": "Dublin",
+        "answerTwo": "London",
+        "answerThree": "Paris",
+        "answerFour": "Madrid",
+        "correctAnswer": "1"
+    },
+
+    {
+        "question": "What is the capital of Italy?",
+        "answerOne": "Dublin",
+        "answerTwo": "Rome",
+        "answerThree": "Paris",
+        "answerFour": "Madrid",
+        "correctAnswer": "2"
+    },
+
+    {
+        "question": "What is the capital of Spain?",
+        "answerOne": "Dublin",
+        "answerTwo": "Rome",
+        "answerThree": "Paris",
+        "answerFour": "Madrid",
+        "correctAnswer": "4"
+    },
+
     { 
-    id: 1,
-    question: "What is the capital of Italy?",
-    answers: [
-        {option: "Dublin", answer: false},
-        {option: "Rome", answer: true},
-        {option: "Turin", answer: false},
-        {option: "Madrid", answer: false}
-    ]},
-    { 
-    id: 2,
-    question: "What is the capital of Spain?",
-    answers: [
-        {option: "Dublin", answer: false},
-        {option: "Rome", answer: false},
-        {option: "Madrid", answer: true},
-        {option: "Paris", answer: false}
-    ]},
-    { 
-    id: 3,  
-    question: "What is the capital of France?",
-    answers: [
-        {option: "London", answer: false},
-        {option: "Madrid", answer: false},
-        {option: "Dublin", answer: false},
-        {option: "Paris", answer: true}
-    ]},
-    { 
-    id: 4,   
-    question: "What is the capital of Germany?",
-    answers: [
-        {option: "Berlin", answer: true},
-        {option: "Dublin", answer: false},
-        {option: "London", answer: false},
-        {option: "Paris", answer: false}
-    ]}
-]
+     
+    {
+        "question": "What is the capital of France?",
+        "answerOne": "Dublin",
+        "answerTwo": "Rome",
+        "answerThree": "Paris",
+        "answerFour": "Madrid",
+        "correctAnswer": "3"
+    },
+
+    {
+        "question": "What is the capital of Portugal?",
+        "answerOne": "Lisbon",
+        "answerTwo": "Rome",
+        "answerThree": "Paris",
+        "answerFour": "Madrid",
+        "correctAnswer": "1"
+    },
+];
 
 // Set Start
 let start = true;
@@ -84,6 +85,15 @@ function iterateQuestions(id) {
     answerThree.InnerText = questions[id].answers[2].text;
     answerFour.InnerText = questions[id].answers[3].text;
 
+    // Providing The True Or False Values To The Options
+    answerOne.value = questions[id].answers[0].isCorrect;
+    answerTwo.value = questions[id].answers[1].isCorrect;
+    answerThree.value = questions[id].answers[2].isCorrect;
+    answerFour.value = questions[id].answers[3].isCorrect;
 
+    let selected = "";
 }
+
+// Grabbing The Submit Button
+
 
