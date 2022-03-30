@@ -48,6 +48,10 @@ body {
     cursor: pointer;
 }
 
+.answer-heading {
+    width: 100%;
+}
+
 .answer-div:hover {
     transform: scale(1.1);
 }

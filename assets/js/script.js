@@ -30,10 +30,10 @@ let questions = [
 
     {
         question: "What is the capital of Spain?",
-        answerOne: "Dublin",
-        answerTwo: "Rome",
-        answerThree: "Paris",
-        answerFour: "Madrid",
+        answer1: "Dublin",
+        answer2: "Rome",
+        answer3: "Paris",
+        answer4: "Madrid",
         correctAnswer: 4
     },
      
@@ -70,8 +70,13 @@ startGame = () => {
 
 getQuestion = () => {
 
+    if (availableQuestions.length === 0 || questionCounter >= maxQuestions){
+        // Go To The End Page
+        return window.location.assign("/end.html");
+    } 
+
     questionCounter++;
-    const questionNumber = Math.floor(Math.random() * 5);
+    const questionNumber = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionNumber];
     question.innerText = currentQuestion.question;
 
@@ -83,5 +88,17 @@ getQuestion = () => {
   availableQuestions.splice(questionNumber, 1);
   acceptingAnswers = true;
 };
+
+options.forEach(answer => {
+  answer.addEventListener("click", e => {
+    if(!acceptingAnswers) return;
+
+    acceptingAnswers = false;
+    const selectedOption = e.target;
+    const selectedAnswer = selectedOption.dataset['number'];
+
+    getQuestion();
+  });
+});
 
 startGame();
