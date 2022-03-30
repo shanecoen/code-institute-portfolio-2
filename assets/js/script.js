@@ -2,7 +2,7 @@ const question = document.getElementById("question-title");
 const options = Array.from(document.getElementsByClassName("answer"));
 
 let currentQuestion = {};
-let acceptingAnswers = true;
+let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -66,6 +66,22 @@ startGame = () => {
     availableQuestions = [...questions];
     console.log(availableQuestions);
     getQuestion();
+};
+
+getQuestion = () => {
+
+    questionCounter++;
+    const questionNumber = Math.floor(Math.random() * 5);
+    currentQuestion = availableQuestions[questionNumber];
+    question.innerText = currentQuestion.question;
+
+    options.forEach( answer => {
+        const number = answer.dataset['number'];
+        answer.innerText = currentQuestion['answer' + number];
+  });
+
+  availableQuestions.splice(questionNumber, 1);
+  acceptingAnswers = true;
 };
 
 startGame();
