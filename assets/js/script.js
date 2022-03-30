@@ -16,7 +16,7 @@ let questions = [
         answer2: "London",
         answer3: "Paris",
         answer4: "Madrid",
-        correctAnswer: 1
+        answer: 1
     },
 
     {
@@ -25,7 +25,7 @@ let questions = [
         answer2: "Rome",
         answer3: "Paris",
         answer4: "Madrid",
-        correctAnswer: 2
+        answer: 2
     },
 
     {
@@ -34,7 +34,7 @@ let questions = [
         answer2: "Rome",
         answer3: "Paris",
         answer4: "Madrid",
-        correctAnswer: 4
+        answer: 4
     },
      
     {
@@ -43,7 +43,7 @@ let questions = [
         answer2: "Rome",
         answer3: "Paris",
         answer4: "Madrid",
-        correctAnswer: 3
+        answer: 3
     },
 
     {
@@ -52,8 +52,8 @@ let questions = [
         answer2: "Rome",
         answer3: "Paris",
         answer4: "Madrid",
-        correctAnswer: 1
-    },
+        answer: 1
+    }
 ];
 
 // Constants
