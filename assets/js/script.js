@@ -36,8 +36,6 @@ let questions = [
         answerFour: "Madrid",
         correctAnswer: 4
     },
-
-    { 
      
     {
         question: "What is the capital of France?",
@@ -58,37 +56,16 @@ let questions = [
     },
 ];
 
-// Set Start
-let start = true;
+// Constants
+const correctBonus = 1;
+const maxQuestions = 5;
 
-// Iterate
-function iterateQuestions(id) {
-    // Setting The Question
-    let questionText = document.getElementById('question-title');
-    
-    question-title.innerText = questions[id].question;
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    console.log(availableQuestions);
+    getQuestion();
+};
 
-    // Getting The Options
-    let answerOne = document.getElementById('answer1');
-    let answerTwo = document.getElementById('answer2');
-    let answerThree = document.getElementById('answer3');
-    let answerFour = document.getElementById('answer4');
-
-    // Providing Option text
-    answerOne.InnerText = questions[id].answers[0].text;
-    answerTwo.InnerText = questions[id].answers[1].text;
-    answerThree.InnerText = questions[id].answers[2].text;
-    answerFour.InnerText = questions[id].answers[3].text;
-
-    // Providing The True Or False Values To The Options
-    answerOne.value = questions[id].answers[0].isCorrect;
-    answerTwo.value = questions[id].answers[1].isCorrect;
-    answerThree.value = questions[id].answers[2].isCorrect;
-    answerFour.value = questions[id].answers[3].isCorrect;
-
-    let selected = "";
-}
-
-// Grabbing The Submit Button
-
-
+startGame();
