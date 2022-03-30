@@ -1,65 +1,60 @@
-// Declare Variables To Represent Elements In Document
-let questionText = document.getElementById('question-title');
-let userScore = document.getElementById('total-score');
-let answerOne = document.getElementById('answer1');
-let answerTwo = document.getElementById('answer2');
-let answerThree = document.getElementById('answer3');
-let answerFour = document.getElementById('answer4');
-let restartBtn = document.getElementById('button-restart');
-let submitBtn = document.getElementById('button-submit');
+const question = document.getElementById("question-title");
+const options = Array.from(document.getElementsByClassName("answer"));
 
-// Declare Site Interactive variables
-let startingQuestion = 0;
+let currentQuestion = {};
+let acceptingAnswers = true;
 let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
 
 // Quiz Questions
-const questions = [
+let questions = [
     
     {
-        "question": "What is the capital of Ireland?",
-        "answerOne": "Dublin",
-        "answerTwo": "London",
-        "answerThree": "Paris",
-        "answerFour": "Madrid",
-        "correctAnswer": "1"
+        question: "What is the capital of Ireland?",
+        answer1: "Dublin",
+        answer2: "London",
+        answer3: "Paris",
+        answer4: "Madrid",
+        correctAnswer: 1
     },
 
     {
-        "question": "What is the capital of Italy?",
-        "answerOne": "Dublin",
-        "answerTwo": "Rome",
-        "answerThree": "Paris",
-        "answerFour": "Madrid",
-        "correctAnswer": "2"
+        question: "What is the capital of Italy?",
+        answer1: "Dublin",
+        answer2: "Rome",
+        answer3: "Paris",
+        answer4: "Madrid",
+        correctAnswer: 2
     },
 
     {
-        "question": "What is the capital of Spain?",
-        "answerOne": "Dublin",
-        "answerTwo": "Rome",
-        "answerThree": "Paris",
-        "answerFour": "Madrid",
-        "correctAnswer": "4"
+        question: "What is the capital of Spain?",
+        answerOne: "Dublin",
+        answerTwo: "Rome",
+        answerThree: "Paris",
+        answerFour: "Madrid",
+        correctAnswer: 4
     },
 
     { 
      
     {
-        "question": "What is the capital of France?",
-        "answerOne": "Dublin",
-        "answerTwo": "Rome",
-        "answerThree": "Paris",
-        "answerFour": "Madrid",
-        "correctAnswer": "3"
+        question: "What is the capital of France?",
+        answer1: "Dublin",
+        answer2: "Rome",
+        answer3: "Paris",
+        answer4: "Madrid",
+        correctAnswer: 3
     },
 
     {
-        "question": "What is the capital of Portugal?",
-        "answerOne": "Lisbon",
-        "answerTwo": "Rome",
-        "answerThree": "Paris",
-        "answerFour": "Madrid",
-        "correctAnswer": "1"
+        question: "What is the capital of Portugal?",
+        answer1: "Lisbon",
+        answer2: "Rome",
+        answer3: "Paris",
+        answer4: "Madrid",
+        correctAnswer: 1
     },
 ];
 
