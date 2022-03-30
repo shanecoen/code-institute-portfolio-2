@@ -95,9 +95,19 @@ options.forEach(answer => {
 
     acceptingAnswers = false;
     const selectedOption = e.target;
-    const selectedAnswer = selectedOption.dataset['number'];
+    const selectedAnswer = selectedOption.dataset["number"];
 
-    getQuestion();
+    const classToApply = 
+      selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+
+    selectedOption.parentElement.classList.add(classToApply);
+
+    setTimeout( () => {
+        selectedOption.parentElement.classList.remove(classToApply);
+        getQuestion();
+    }, 1000);   
+
+    
   });
 });
 
