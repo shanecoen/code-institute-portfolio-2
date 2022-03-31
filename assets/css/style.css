@@ -46,7 +46,7 @@ a {
 .answer-div {
     display: inline-block;
     width: 35%;
-    margin: 3rem auto;
+    margin: 2rem auto;
     padding: 1.5rem;
     color: navy;
     border: 1px solid navy;
@@ -79,6 +79,11 @@ a {
     clear: both;
     margin: 0 auto;
     text-align: center;
+}
+
+.your-score {
+    padding-top: 1rem;
+    margin: 5rem 0;
 }
 
 .buttons {
