@@ -18,10 +18,11 @@ a {
     padding: 0;
     margin: 5rem auto;    
     width: 60%;
-    height: 80vh;
+    max-height: 100vh;
     background-color: beige;
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 128, 0.5);
     border-radius: 50px;
+    display: flow-root;
 }
 
 #home-page {
@@ -79,6 +80,7 @@ a {
     clear: both;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 6rem;
 }
 
 .your-score {
