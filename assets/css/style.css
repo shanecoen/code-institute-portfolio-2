@@ -28,7 +28,7 @@ body {
     font-size: 200%;
 }
 
-.question-number {
+.question-number, .your-score {
     padding: 0;
     margin: 0;
     text-align: center;
