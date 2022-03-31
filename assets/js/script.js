@@ -74,7 +74,7 @@ getQuestion = () => {
 
     if (availableQuestions.length === 0 || questionCounter >= maxQuestions){
         // Go To The End Page
-        return window.location.assign("/end.html");
+        return window.location.assign("/final.html");
     } 
 
     questionCounter++;
