@@ -11,6 +11,9 @@ body {
     background-color: rgba(0, 0, 128, 0.2);
 }
 
+a {
+    text-decoration: none;
+}
 #main-content {
     padding: 0;
     margin: 5rem auto;    
@@ -19,6 +22,12 @@ body {
     background-color: beige;
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 128, 0.5);
     border-radius: 50px;
+}
+
+#home-page {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 6rem;
 }
 
 .question-heading {
@@ -77,7 +86,7 @@ body {
     margin: 2rem;
     text-transform: uppercase;
     background-color: navy;
-    font: 600 70%/1.5 'Raleway', 'sans-serif';
+    font: 600 120%/1.5 'Raleway', 'sans-serif';
     text-transform: capitalize;
     letter-spacing: 1.5px;
     color: beige;
