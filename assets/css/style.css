@@ -97,9 +97,11 @@ body {
 }
 
 .correct {
-    color: green;   
+    color: beige;   
+    background-color: green;
 }
 
 .incorrect {
-    color: red;
+    color: beige;
+    background-color: red;
 }
