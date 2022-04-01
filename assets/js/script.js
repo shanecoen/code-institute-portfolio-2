@@ -73,14 +73,13 @@ startGame = () => {
 getQuestion = () => {
 
     if (availableQuestions.length === 0 || questionCounter >= maxQuestions){
-        localStorage.setItem("playerScore", score);
+        localStorage.setItem('playerScore', score);
         // Go To The Final Page
         return window.location.assign("/final.html");
-    } 
+    }
 
     questionCounter++;
     questionNum.innerText = `Question: ${questionCounter} Of ${maxQuestions}`
-
 
     const questionNumber = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionNumber];
@@ -125,9 +124,5 @@ incrementScore = num => {
     score += num;
     yourScore.innerText = `Your Score: ${score}`;
 };
-
-const finalScore = document.getElementById('total-score');
-const playerScore = localStorage.getItem('playerScore');
-finalScore.innertext = playerScore;
 
 startGame();
