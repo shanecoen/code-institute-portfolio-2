@@ -1,17 +1,37 @@
+/**
+ * The Following Tutorials Were used as Inspiration
+ * On How To Build A JavaScript Quiz:
+ * 
+ * Title:How To Create A Simple JavaScript Quiz
+ * Author: Unknown
+ * Date: 2021
+ * Url: https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/
+ * 
+ * Title: Build A Quiz App With HTML, CSS and JavaScript
+ * Author: James Q Quick
+ * Date: 2019
+ * Url: https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=1
+ * 
+ * Title: How To Create A JavaScript Quiz Code
+ * Author: Unknown
+ * Date: 2020
+ * Url: https://www.codingninjas.com/blog/2020/11/03/how-to-create-a-quiz-in-javascript/
+*/
+
+// Declaring Constants And Variables
 const question = document.getElementById("question-title");
 const options = Array.from(document.getElementsByClassName("answer"));
 const questionNum = document.getElementById("q-num");
 const yourScore = document.getElementById("total-score");
 
-let currentQuestion = {};
-let acceptingAnswers = false;
+let currentQ = {};
+let acceptAns = false;
 let score = 0;
-let questionCounter = 0;
-let availableQuestions = [];
+let qCounter = 0;
+let availableQ = [];
 
-// Quiz Questions
-let questions = [
-    
+// 10 Quiz Questions. 5 Max To Be Selected At Random For Quiz.
+let questions = [    
     {
         question: "Who directed Titanic, Avatar and The Terminator?",
         answer1: "James Cameron",
@@ -20,7 +40,6 @@ let questions = [
         answer4: "Michael Bay",
         answer: 1
     },
-
     {
         question: "Name the 2015 film spinoff to the Rocky series starring Michael B. Jordan.",
         answer1: "Adrian",
@@ -29,7 +48,6 @@ let questions = [
         answer4: "Drago",
         answer: 2
     },
-
     {
         question: "Who played the lead role in the 2001 film Lara Croft: Tomb Raider?",
         answer1: "Alicia Vikander",
@@ -37,17 +55,15 @@ let questions = [
         answer3: "Halle Berry",
         answer4: "Angelina Jolie",
         answer: 4
-    },
-     
+    },     
     {
-        question: "In The Matrix, what colour pill does Neo?",
+        question: "In The Matrix, what colour pill does Neo Take?",
         answer1: "Yellow",
         answer2: "Green",
         answer3: "Red",
         answer4: "Blue",
         answer: 3
     },
-
     {
         question: "Which US comedian wrote and directed Get Out and Us?",
         answer1: "Jordan Peele",
@@ -56,7 +72,6 @@ let questions = [
         answer4: "Ben Stiller",
         answer: 1
     },
-
     {
         question: "How many Academy Awards has Leonardo DiCaprio won?",
         answer1: "One",
@@ -65,7 +80,6 @@ let questions = [
         answer4: "None",
         answer: 1
     },
-
     {
         question: "How many films have Al Pacino and Robert De Niro starred in together?",
         answer1: "Three",
@@ -74,7 +88,6 @@ let questions = [
         answer4: "Six",
         answer: 3
     },
-
     {
         question: "Where were The Lord of the Rings movies filmed?",
         answer1: "Ireland",
@@ -83,7 +96,6 @@ let questions = [
         answer4: "New Zealand",
         answer: 4
     },
-
     {
         question: "Which actor hasnt played the Joker?",
         answer1: "Jack Nicholson",
@@ -92,7 +104,6 @@ let questions = [
         answer4: "Mark Hamil",
         answer: 2
     },
-
     {
         question: "What Hollywood movie star plays himself in Zombieland?",
         answer1: "Tom Cruise",
@@ -103,71 +114,86 @@ let questions = [
     }
 ];
 
-// Constants
-const correctBonus = 1;
-const maxQuestions = 5;
+/* Declaring Constants For Player Score 
+And Number Of Max Questions To Be Asked */
+const correctB = 1;
+const maxQ = 5;
 
+// Function To Begin Quiz
 startGame = () => {
-    questionCounter = 0;
+    qCounter = 0;
     score = 0;
-    availableQuestions = [...questions];
-    console.log(availableQuestions);
+    // Takes All Questions For Questions Array
+    availableQ = [...questions];
+    console.log(availableQ);
     getQuestion();
 };
 
+// Function To Get Next Question In Quiz
 getQuestion = () => {
 
-    if (availableQuestions.length === 0 || questionCounter >= maxQuestions){
+    if (availableQ.length === 0 || qCounter >= maxQ){
+        // Player Score Saved In Local Storage At End Game
         localStorage.setItem('playerScore', score);
-        // Go To The Final Page
+        // Go To The Final Page And Show Final Player Score
         return window.location.assign("/final.html");
     }
 
-    questionCounter++;
-    questionNum.innerText = `Question: ${questionCounter} Of ${maxQuestions}`
+    // Show Current Question Number (eg Question 1 Of 5)
+    qCounter++;
+    questionNum.innerText = `Question: ${qCounter} Of ${maxQ}`
 
-    const questionNumber = Math.floor(Math.random() * availableQuestions.length);
-    currentQuestion = availableQuestions[questionNumber];
-    question.innerText = currentQuestion.question;
+    // Randomize Quiz Questions
+    const questionNumber = Math.floor(Math.random() * availableQ.length);
+    currentQ = availableQ[questionNumber];
+    question.innerText = currentQ.question;
 
+    // To Get Appropriate Answer For Each Question
     options.forEach( answer => {
         const number = answer.dataset['number'];
-        answer.innerText = currentQuestion['answer' + number];
+        answer.innerText = currentQ['answer' + number];
   });
 
-  availableQuestions.splice(questionNumber, 1);
-  acceptingAnswers = true;
+  // Takes Questions Array And Stops Same Question Being Repeated
+  availableQ.splice(questionNumber, 1);
+  acceptAns = true;
 };
 
+// References Clicked Answer For Each Question
 options.forEach(answer => {
-  answer.addEventListener("click", e => {
-    if(!acceptingAnswers) return;
+  answer.addEventListener("click", event => {
+    if(!acceptAns) return;
 
-    acceptingAnswers = false;
-    const selectedOption = e.target;
+    acceptAns = false;
+    const selectedOption = event.target;
     const selectedAnswer = selectedOption.dataset["number"];
 
-    const classToApply = 
-      selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
-
-      if (classToApply === "correct") {
-          incrementScore(correctBonus);
+    // Apply Correct Or Incorrect Class Depending On Answer
+    const ApplyAfterAnswer = 
+      selectedAnswer == currentQ.answer ? "correct" : "incorrect";
+    
+      // Increment Score By Appropriate Amount If Correct
+      if (ApplyAfterAnswer === "correct") {
+          incrementScore(correctB);
       }
 
-    selectedOption.parentElement.classList.add(classToApply);
-
-    setTimeout( () => {
-        selectedOption.parentElement.classList.remove(classToApply);
-        getQuestion();
-    }, 1000);   
-
+    selectedOption.parentElement.classList.add(ApplyAfterAnswer);
     
+    /* Removing above class and also Allowing 1 Second
+    after Selection Before Next Question */
+    setTimeout( () => {
+        selectedOption.parentElement.classList.remove(ApplyAfterAnswer);
+        getQuestion();
+    }, 1000); 
+
   });
 });
 
+// Increment Score To Be Shown After Each Question
 incrementScore = num => {
     score += num;
     yourScore.innerText = `Your Score: ${score}`;
 };
 
+// Calling Function To Begin Quiz
 startGame();
