@@ -33,18 +33,18 @@ let questions = [
     {
         question: "Who played the lead role in the 2001 film Lara Croft: Tomb Raider?",
         answer1: "Alicia Vikander",
-        answer2: "Drew Barrymore",
+        answer2: "Emma Stone",
         answer3: "Halle Berry",
         answer4: "Angelina Jolie",
         answer: 4
     },
      
     {
-        question: "Who has won the most Oscars for acting in the history of the Academy Awards?",
-        answer1: "Daniel Day Lewis",
-        answer2: "Tom Hanks",
-        answer3: "Katherine Hepburn",
-        answer4: "Al Pacino",
+        question: "In The Matrix, what colour pill does Neo?",
+        answer1: "Yellow",
+        answer2: "Green",
+        answer3: "Red",
+        answer4: "Blue",
         answer: 3
     },
 
@@ -94,11 +94,11 @@ let questions = [
     },
 
     {
-        question: "Who directed Silence of the Lambs?",
-        answer1: "Oliver Stone",
-        answer2: "Wes Anderson",
-        answer3: "Jonathan Demme",
-        answer4: "Christopher Nolan",
+        question: "What Hollywood movie star plays himself in Zombieland?",
+        answer1: "Tom Cruise",
+        answer2: "Will Smith",
+        answer3: "Bill Murray",
+        answer4: "Brad Pitt",
         answer: 3
     }
 ];
