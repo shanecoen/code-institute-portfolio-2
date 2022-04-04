@@ -179,12 +179,12 @@ options.forEach(answer => {
 
     selectedOption.parentElement.classList.add(ApplyAfterAnswer);
     
-    /* Removing above class and also Allowing 1 Second
+    /* Removing above class and also Allowing 1.5 Seconds
     after Selection Before Next Question */
     setTimeout( () => {
         selectedOption.parentElement.classList.remove(ApplyAfterAnswer);
         getQuestion();
-    }, 1000); 
+    }, 1500); 
 
   });
 });
