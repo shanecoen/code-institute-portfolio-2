@@ -13,48 +13,93 @@ let availableQuestions = [];
 let questions = [
     
     {
-        question: "What is the capital of Ireland?",
-        answer1: "Dublin",
-        answer2: "London",
-        answer3: "Paris",
-        answer4: "Madrid",
+        question: "Who directed Titanic, Avatar and The Terminator?",
+        answer1: "James Cameron",
+        answer2: "Steven Spielberg",
+        answer3: "Peter Jackson",
+        answer4: "Michael Bay",
         answer: 1
     },
 
     {
-        question: "What is the capital of Italy?",
-        answer1: "Dublin",
-        answer2: "Rome",
-        answer3: "Paris",
-        answer4: "Madrid",
+        question: "Name the 2015 film spinoff to the Rocky series starring Michael B. Jordan.",
+        answer1: "Adrian",
+        answer2: "Creed",
+        answer3: "Apollo",
+        answer4: "Drago",
         answer: 2
     },
 
     {
-        question: "What is the capital of Spain?",
-        answer1: "Dublin",
-        answer2: "Rome",
-        answer3: "Paris",
-        answer4: "Madrid",
+        question: "Who played the lead role in the 2001 film Lara Croft: Tomb Raider?",
+        answer1: "Alicia Vikander",
+        answer2: "Drew Barrymore",
+        answer3: "Halle Berry",
+        answer4: "Angelina Jolie",
         answer: 4
     },
      
     {
-        question: "What is the capital of France?",
-        answer1: "Dublin",
-        answer2: "Rome",
-        answer3: "Paris",
-        answer4: "Madrid",
+        question: "Who has won the most Oscars for acting in the history of the Academy Awards?",
+        answer1: "Daniel Day Lewis",
+        answer2: "Tom Hanks",
+        answer3: "Katherine Hepburn",
+        answer4: "Al Pacino",
         answer: 3
     },
 
     {
-        question: "What is the capital of Portugal?",
-        answer1: "Lisbon",
-        answer2: "Rome",
-        answer3: "Paris",
-        answer4: "Madrid",
+        question: "Which US comedian wrote and directed Get Out and Us?",
+        answer1: "Jordan Peele",
+        answer2: "Chris Rock",
+        answer3: "Judd Apatow",
+        answer4: "Ben Stiller",
         answer: 1
+    },
+
+    {
+        question: "How many Academy Awards has Leonardo DiCaprio won?",
+        answer1: "One",
+        answer2: "Two",
+        answer3: "Three",
+        answer4: "None",
+        answer: 1
+    },
+
+    {
+        question: "How many films have Al Pacino and Robert De Niro starred in together?",
+        answer1: "Three",
+        answer2: "Five",
+        answer3: "Four",
+        answer4: "Six",
+        answer: 3
+    },
+
+    {
+        question: "Where were The Lord of the Rings movies filmed?",
+        answer1: "Ireland",
+        answer2: "Iceland",
+        answer3: "Australia",
+        answer4: "New Zealand",
+        answer: 4
+    },
+
+    {
+        question: "Which actor hasnt played the Joker?",
+        answer1: "Jack Nicholson",
+        answer2: "Sean Penn",
+        answer3: "Jared Leto",
+        answer4: "Mark Hamil",
+        answer: 2
+    },
+
+    {
+        question: "Who directed Silence of the Lambs?",
+        answer1: "Oliver Stone",
+        answer2: "Wes Anderson",
+        answer3: "Jonathan Demme",
+        answer4: "Christopher Nolan",
+        answer: 3
     }
 ];
 
