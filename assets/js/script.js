@@ -136,7 +136,7 @@ getQuestion = () => {
         // Player Score Saved In Local Storage At End Game
         localStorage.setItem('playerScore', score);
         // Go To The Final Page And Show Final Player Score
-        return window.location.assign("/final.html");
+        return window.location.assign("final.html");
     }
 
     // Show Current Question Number (eg Question 1 Of 5)
