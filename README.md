@@ -58,3 +58,21 @@ Wireframes were an integral part of the design process for this website. They we
 <br>
 
 ![Image of Balsamiq Wireframes used in designing website](assets/images/readme-wireframe.jpg)
+
+### Site Structure:
+
+The Movie Quiz consists of three seperate pages i.e. Home page, the Quiz page and the final results page. The home page is the default landing page and the quiz page can be assessed once the user clicks on the start quiz button. The final results page can only be assessed once the user has completed the quiz. At all times the user has the option of returning to the homepage via the large restart button making navigation very accessible.
+
+### Design Choices:
+
+* Typography
+
+The font chosen for this website was "Raleway" for all headings and body text. The font has a fallback option of "Sans-Serif". This font was chosen as it is aesthetially pleasing and is easy to read for the user. Google Fonts was used to aquire this font.
+
+* Colour Scheme
+
+The colour scheme chosen for the website consists of navy (#000080) and beige (#f5f5dc). These were chosen as they have a good contrast with one another and make viewing and interacting very accessible for the user.
+
+<br>
+
+[Back To Contents](<#contents>)
