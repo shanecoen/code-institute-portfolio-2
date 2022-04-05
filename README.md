@@ -25,6 +25,46 @@ This website is hosted by GitHub pages and can be viewed at: <br>
 
 ## **Contents**
 
+* [**The Design Process**](<#the-design-process>)
+    * [UX Design](<#ux-design>)
+    * [User Stories](<#user-stories>)
+    * [Responsively Designed](<#responsively-designed>)
+    * [Semantic HTML](<#semantic-html>)
+    * [Wireframes](<#wireframes>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+        * Typography
+        * Colour Scheme
+* [**Features**](<#features>)
+    * [Existing Features](<#existing-features>)
+        * [Common To All Pages](<#common-to-all-pages>)
+            * Large Call To Action Buttons
+        * [Quiz Rules](<#quiz-rules>)
+        * [Quiz Question](<#quiz-question>)
+        * [Quiz Number](<#quiz-number>)
+        * [Quiz Answer Option Buttons](<#quiz-answer-option-buttons>)
+        * [Current Score](<#current-score>)
+        * [Final Page And Final Score](<#final-page-and-final-score>)
+    * [Future Features](<#future-features>)
+* [**Technologies Used**](<#technologies-used>)
+* [**Testing**](<#testing>)
+    * [Code Validation](<#code-validation>)
+    * [Website Responsiveness](<#website-responsiveness>)
+    * [Browser Compatability](<#browser-compatability>)
+    * [Testing User Stories](<#testing-user-stories>)
+    * [Lighthouse Testing](<#lighthouse-testing>)
+    * [Known Bugs](<#known-bugs>)
+        * Resolved Bugs
+        * Unresolved Bugs
+* [**Deployment**](<#deployment>)
+    * [GitHub Pages](<#github-pages>)
+    * [To Fork A Repository On GitHub](<#to-fork-a-repository-on-github>)
+    * [Creating A Local Clone Of Website Files From GitHub](<#creating-a-local-clone-of-website-files-from-github>)
+* [**Credits**](<#credits>)
+    * [Website Content](<#website-content>)
+    * [Code](<#code>)
+* [**Acknowledgements**](<#acknowledgements>)
+
 ## **The Design Process**
 
 ### UX Design:
@@ -76,6 +116,12 @@ The colour scheme chosen for the website consists of navy (#000080) and beige (#
 <br>
 
 [Back To Contents](<#contents>)
+
+## **Features**
+
+The Movie Quiz was responsively designed with the user in mind in that it is a very
+welcoming and easy to use website. Users will instantly be able to naigate throughout the site
+easily and all interactive features such as the quiz answers and buttons are very user friendly. 
 
 ### Existing Features:
 
@@ -321,6 +367,3 @@ Shane Coen, 2022.
 <br>
 
 [Back To Contents](<#contents>)
-
-
-
