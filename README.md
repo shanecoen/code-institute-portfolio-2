@@ -206,3 +206,61 @@ While testing this website, good use was made of Chrome Dev Tools. One feature t
 
 ### Known Bugs:
 
+* Resolved Bugs
+
+* Unresolved Bugs
+
+<br>
+
+[Back To Contents](<#contents>)
+
+## **Deployment**
+
+### GitHub Pages:
+
+This website was deployed using GitHub pages and it can be viewed at:<br> 
+https://shanecoen.github.io/code-institute-portfolio-2/index.html
+
+In order to deploy this website a number of steps had to be undertaken;
+
+1. Naviagte to [GitHub](https://www.github.com)
+2. Login into your Github account with your username and password
+3. Navigate to the "your repositories" section
+4. Select the project to be deployed
+5. Select "settings" from the options along the top menu
+6. Once in settings a new menu wil appear on the left hand side. Select the "pages" option. 
+You will now be in the Github pages section where you can deploy your project. This page can
+be seen in the image below.
+
+<br>
+
+![Image of Github pages section](assets/images/readme-github-one.jpg)
+
+<br>
+
+7. In order to now deploy your website select either "master" or "main" in the "Source: Branch" option and click "save".
+8. Github will then refesh the page and give details of the newly deployed project.
+
+### To Fork A Repository On GitHub:
+
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. In order to fork this repository follow the steps below;
+
+1. Log into your GitHub account and locate the repository your wish to fork.
+2. On the top right corner of the repository page locate the "Fork" option.
+3. Click this button and a copy of the original repository will now be created in your GitHub account.
+
+### Creating A Local Clone of Website Files From GitHub:
+
+1. Log into your GitHub account and locate the repository you wish to clone.
+2. When in the repository, click on the "code" tab.
+3. When the menu opens; select HTTPS and copy the link on right side.
+4. Naviagte to an IDE and open GIT bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type "git clone"
+7. Paste the URL of the code you have copied from GitHub,
+8. Press enter and your local clone will have been created.
+
+<br>
+
+[Back To Contents](<#contents>)
+
