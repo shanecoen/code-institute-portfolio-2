@@ -196,6 +196,33 @@ Note: Safari was not available to the developer during this browser compatabilit
 
 ### Testing User Stories:
 
+* As a movie fan I want to be able to **understand** the websites **purpose instantly** upon loading it.
+    * Instantly upon loading the site, the **title Movie Quiz** is visible and below it are a series of very clear and easy to understand **instructions**. These combine to instantly convey the purpose of the site.
+
+* As a movie fan I want to view an **aethetically pleasing** website.
+    * The use of **bright contasting colours**, **nice fonts**, **large text** and **buttons** allow for a positive and pleasant experience.
+
+* As a movie fan I want to be able to play a **fun** and **interactive** quiz.
+    * The **variety of questions** available combined with its **interactive buttons** and **updating scores** allow for a unique experience.
+
+* As a movie fan I want its **functionality** to be clear from the outset.
+    * The clear concise **instructions** given combined with **large buttons** throughout the site allow the movie fan to understand how the site functions from the outset.
+
+* As a movie fan I want a **challenging** quiz.
+    * The **questions** in this quiz are **challenging** and the fact that they are **randominized** means that every time the movie fan plays the quiz they will have a new challenge.
+
+* As a movie fan I want to be able to **keep track** of how many **questions** are in the quiz.
+    * This is possible via the **text** that is **visible** at all times **about the answer options**. It updates after every question.
+
+* As a movie fan I want to be able to **keep track of my score** as I progress.
+    * The **total score** is **updated** after every **correct answer**. A correct answer turns green and the score is updated. An incorrect answer will turn red and no score change will occur.
+
+* As a movie fan I want to be able to **restart the quiz** if desired.
+    * The option to restart the quiz is always available via the **large restart button**. It can be restarted during the quiz or at the end.
+
+* As a movie fan I do not wish to be presented with the same questions again if I restart quiz. **I want questions randomized**.
+    * The **questions are randomized** which means that when the quiz is restarted a different set of questions is always likely.
+
 ### Lighthouse Testing:
 
 While testing this website, good use was made of Chrome Dev Tools. One feature that was used extensivelly was [Lighthouse](https://developers.google.com/web/tools/lighthouse). This is a tool that is used to identify and fix common problems that can affect the sites performance, accessibility and user experience. It can generate a report (on both mobile and desktop devices) and give a score out of 100 on website performance (site loading performance), Accessibility, Best practices (does it conform to industry best practices) and SEO (is the site optimised for search engine result rankings). This was a very useful tool that helped to identify and resolve any bugs present from an early stage. The below image shows some of this websites current lighthouse scores with the left side showing quiz.html on a mobile device and the right side showing it on a desktop screen.
