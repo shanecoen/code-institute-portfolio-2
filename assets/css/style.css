@@ -82,13 +82,13 @@ a {
     cursor: pointer;
 }
 
+.answer-div:hover {
+    background-color: rgba(192, 192, 192, 0.5);
+}
+
 .answer-heading {
     width: 100%;
     padding: 1.5rem;
-}
-
-.answer-div:hover {
-    transform: scale(1.1);
 }
 
 /* Start And Restart Button Styling */
@@ -172,6 +172,10 @@ a {
         display: inline-block;
         width: 40%;
         margin: 2rem auto;
+    }
+
+    .answer-div:hover {
+        transform: scale(1.1);
     }
 
     .answer-left {
