@@ -218,8 +218,8 @@ While testing this website, good use was made of Chrome Dev Tools. One feature t
 
 ### GitHub Pages:
 
-This website was deployed using GitHub pages and it can be viewed at:<br> 
-https://shanecoen.github.io/code-institute-portfolio-2/index.html
+This website was deployed using GitHub pages and it can be viewed below:<br> 
+[Movie Quiz](https://shanecoen.github.io/code-institute-portfolio-2/index.html)
 
 In order to deploy this website a number of steps had to be undertaken;
 
@@ -263,4 +263,33 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 <br>
 
 [Back To Contents](<#contents>)
+
+## **Credits**
+
+### Website Content:
+
+* All text content used in this website is owned by the developer.
+* [Favicon](https://favicon.io/) provided the Icon used in the tab of each page in this website.
+* The fonts used were provided by [Google Fonts](https://fonts.google.com/). 
+* The wireframes used for design purposes were designed using [Balsamiq](https://balsamiq.com/).
+
+### Code:
+
+* While working on the JavaScript code for this website there was number of YouTube tutorials studied which detailed the development process of a JavaScript quiz. Inspiration for my code was taken from the tutorials below and where used was edited to suit this websites requirements.
+
+    * Title: [How To Create A Simple JavaScript Quiz](https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/), Date: 2021, Author: Unknown.
+    * Title: [Build A Quiz App With HTML, CSS and JavaScript](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=1), Date: 2019, Author: James Q Quick.
+    * Title: [How To Create A JavaScript Quiz Code](https://www.codingninjas.com/blog/2020/11/03/how-to-create-a-quiz-in-javascript/), Date: 2020, Author: Unknown.
+
+## **Acknowledgements**
+
+This website was completed as part of Code Institute's Diploma in Full Stack Software Development program and was completed in April 2022. I wish to thank my mentor Precious Ijege for all the time and effort given to me during the time spent on this project. I also wish to acknowledge the slack community and all those at Code Institute for all their help and support.
+
+Shane Coen, 2022.
+
+<br>
+
+[Back To Contents](<#contents>)
+
+
 
