@@ -235,13 +235,11 @@ While testing this website, good use was made of Chrome Dev Tools. One feature t
 
 * Resolved Bugs
 
-1. When playing this quiz on a desktop unit the answers for each question will increase in scale slighly when hovered upon. When using a mobile device (as it is touch screen) hover is not possible. This has meant that when the user selects an answer that option is currently staying enlarged when the next question is loaded. This enlargment is size will go away if the user touchs somehwere else on screen but it is not feasible to expect the user to do this every time. To resolve this issue this enlargement is now only available on larger screen sizes.
+1. When playing this quiz on a desktop unit the answers for each question will increase in scale slighly when hovered upon. When using a mobile device (as it is touch screen) hover is not possible. This has meant that when the user selects an answer that option is currently staying enlarged when the next question is loaded. This enlargment is size will go away if the user touches somehwere else on screen but it is not feasible to expect the user to do this every time. To resolve this issue this enlargement is now only available on larger screen sizes.
 
 * Unresolved Bugs
 
 1. Every time a quiz question is answered and proceeds onto the next question, the site loads in the same position that the user was for the previous question. Preferably it should load at the top of the page very time. If the user is on a mobile device and has scrolled down to the bottom of the site the next question will load in this same position. This issue would be resolved with more time working on the site.
-
-
 
 <br>
 
