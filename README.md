@@ -157,3 +157,16 @@ Once the user has answered their fifth and final question they will then be take
 <br>
 
 [Back To Contents](<#contents>)
+
+## **Technologies Used**
+
+* [Balsamiq](https://balsamiq.com/)  - Used in the design process for the production of wireframes.
+* [HTML5](https://html.spec.whatwg.org/) - Used to provide the website's structure.
+* [CSS3](https://www.w3.org/) - Used to provide the website's styling.
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Used to provide the website's interactivity.
+* [Github](https://github.com/) - This was used to host and deploy the website.
+* [Gitpod](https://www.gitpod.io/) - Provided the developement environment for the website.
+
+<br>
+
+[Back To Contents](<#contents>)
