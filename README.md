@@ -15,3 +15,12 @@ Some of its key features include:
 ## The Website
 
 <br>
+
+![Image of website in various screen sizes](assets/images/readme-responsive-image.jpg)
+
+<br>
+
+This website is hosted by GitHub pages and can be viewed at: <br>
+[Movie Quiz](https://shanecoen.github.io/code-institute-portfolio-2/index.html)
+
+## Contents
