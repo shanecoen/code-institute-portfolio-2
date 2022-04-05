@@ -170,3 +170,39 @@ Once the user has answered their fifth and final question they will then be take
 <br>
 
 [Back To Contents](<#contents>)
+
+## **Testing**
+
+### Code Validation:
+
+* The code from this website has been validated using the [W3C HTML Validator](https://validator.w3.org/) to ensure that it complies with the standards set by the W3 Consortium.
+* All three pages (index.html, quiz.html and final.html) have been tested and all have come back 100% clear of errors. Quiz.html and final.html shows a warning regarding an empty heading but this is left empty to allow the JavaScript code to run correctly on both pages.
+* The CSS code has been validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure that its complies with all relevant standards and it has come back 100% clear of all errors and warnings.
+* The JavaScript code has been validated using [JSHint](https://jshint.com/) and has come back clear of errors but some warnings are present.
+* The Images below show the HTML validation results (top - no errors on all three pages) and CSS validation results (bottom).
+
+<br>
+
+![Image of HTML and CSS Validation result](assets/images/readme-code-validation.jpg)
+
+### Website Responsiveness:
+
+This website has been tested at every single stage to ensure that is responded correctly to every device type and size i.e. desktop, tablet and mobile. Some of the device types used for testing included; lenovo IdeaPad 100 Laptop, Samsung Galaxy 7 inch tablet, Amazon Fire 6 inch tablet, Apple iPad 9.7 inch and a number of mobile phone brands such as Apple iPhone, Samsung and Huawei. Google Chrome DevTools and Firefox's responsive design mode were used extensivelly in these tests. Media queries were used in this websites design where required to ensure that every aspect responded as desired with regard to rendering, layout, positioning etc. All responsiveness testing passed successfully.
+
+### Browser Compatability:
+
+This website was tested extensivelly using a number of different browsers (i.e. Google Chrome, Mozilla Firefox and Microsoft Edge) throughout its development. This was done to ensure that every aspect of the websites design, appearance, functionality and responsivness was compatible with these browsers.
+Note: Safari was not available to the developer during this browser compatability testing.
+
+### Testing User Stories:
+
+### Lighthouse Testing:
+
+While testing this website, good use was made of Chrome Dev Tools. One feature that was used extensivelly was [Lighthouse](https://developers.google.com/web/tools/lighthouse). This is a tool that is used to identify and fix common problems that can affect the sites performance, accessibility and user experience. It can generate a report (on both mobile and desktop devices) and give a score out of 100 on website performance (site loading performance), Accessibility, Best practices (does it conform to industry best practices) and SEO (is the site optimised for search engine result rankings). This was a very useful tool that helped to identify and resolve any bugs present from an early stage. The below image shows some of this websites current lighthouse scores with the left side showing quiz.html on a mobile device and the right side showing it on a desktop screen.
+
+<br>
+
+![Image of lighthouse testing result](assets/images/readme-lighthouse.jpg)
+
+### Known Bugs:
+

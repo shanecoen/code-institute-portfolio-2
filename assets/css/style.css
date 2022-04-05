@@ -45,6 +45,7 @@ a {
 }
 
 #rules-list {
+    line-height: 3;
     list-style-type: none;
     color: navy;
 }

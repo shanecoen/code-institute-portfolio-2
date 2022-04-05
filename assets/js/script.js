@@ -141,7 +141,7 @@ getQuestion = () => {
 
     // Show Current Question Number (eg Question 1 Of 5)
     qCounter++;
-    questionNum.innerText = `Question: ${qCounter} Of ${maxQ}`
+    questionNum.innerText = `Question: ${qCounter} Of ${maxQ}`;
 
     // Randomize Quiz Questions
     const questionNumber = Math.floor(Math.random() * availableQ.length);
