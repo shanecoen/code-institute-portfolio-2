@@ -50,3 +50,11 @@ This website has been designed Mobile First as priority and huge importance has 
 ### Semantic HTML:
 
 Wherever possible Semantic HTML5 elements were used in order to have the HTML code structured correctly and to enure that the code is accessible to all users.
+
+### Wireframes:
+
+Wireframes were an integral part of the design process for this website. They were used as a visual representation of the initial ideas for the architecture of the site i.e. the organisation of all pages and features etc. It was very important to be able to visualise how this website would look and function whether it was in Mobile, Tablet or Desktop view. Balsamiq was used in the production of wireframes for this website and it helped greatly in the development process when the decison had to be made as to what features etc were to be included. Some of the wireframes used can be seen in the image below and show desktop and mobile view side by side. (note: wireframe sizes are not to scale).
+
+<br>
+
+![Image of Balsamiq Wireframes used in designing website](assets/images/readme-wireframe.jpg)
