@@ -10,7 +10,7 @@ body {
     font: 600 80%/1.5 'Raleway', 'sans-serif';
     text-transform: capitalize;
     letter-spacing: 1.5px;
-    background-color: rgba(0, 0, 128, 0.2);
+    background-color: beige;
 }
 
 a {
@@ -20,13 +20,11 @@ a {
 /* Main Content Styles */
 
 #main-content {
-    padding: 0;
-    margin: 2rem auto;    
-    width: 90%;
+    margin: 0;
+    padding: 0;        
+    width: auto;    
     height: auto;
-    background-color: beige;
-    box-shadow: 0px 0px 20px 20px rgba(0, 0, 128, 0.5);
-    border-radius: 50px;
+    background-color: beige;    
     display: flow-root;
 }
 
@@ -126,6 +124,22 @@ a {
 .incorrect {
     color: beige;
     background-color: red;
+}
+
+/* Media Queries min-width: 500px */
+
+@media only screen and (min-width: 500px) {
+
+    body {
+        background-color: rgba(0, 0, 128, 0.2);
+    }
+
+    #main-content {
+        width: 90%;
+        margin: 2rem auto;        
+        box-shadow: 0px 0px 20px 20px rgba(0, 0, 128, 0.5);
+        border-radius: 50px;        
+    }   
 }
 
 /* Media Queries min-width: 600px */
