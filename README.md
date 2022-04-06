@@ -22,6 +22,7 @@ Some of its key features include:
 
 This website is hosted by GitHub pages and can be viewed at: <br>
 [Movie Quiz](https://shanecoen.github.io/code-institute-portfolio-2/index.html)
+<a href="https://shanecoen.github.io/code-institute-portfolio-2/index.html" target="_blank">Movie Quiz</a>
 
 ## **Contents**
 
