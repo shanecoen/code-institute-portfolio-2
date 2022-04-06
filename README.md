@@ -16,7 +16,7 @@ Some of its key features include:
 
 <br>
 
-![Image of website in various screen sizes](assets/images/readme-responsive-image.jpg)
+![Image of website in various screen sizes](assets/images/readme-responsive.jpg)
 
 <br>
 
