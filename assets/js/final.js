@@ -1,6 +1,7 @@
 /**
- * The Following Tutorials Were used as Inspiration
- * On How To Build A JavaScript Quiz:
+ * The Following Tutorials On How To Build A JavaScript Quiz 
+ * Were used as Inspiration for my code and edited to
+ * suit my requirements:
  * 
  * Title:How To Create A Simple JavaScript Quiz
  * Author: Unknown
