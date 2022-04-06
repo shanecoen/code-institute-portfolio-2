@@ -6,7 +6,7 @@ Some of its key features include:
 
 * Easy to follow instructions are given,
 * Multiple choice format questions,
-* The movie fan will know instantly if they choose correct answer,
+* The movie fan will know instantly if they choose the correct answer,
 * Score is updated instantly,
 * Next question appears automatically,
 * Total score is given at end of quiz,
@@ -107,7 +107,7 @@ The Movie Quiz consists of three seperate pages i.e. Home page, the Quiz page an
 
 * Typography
 
-The font chosen for this website was "Raleway" for all headings and body text. The font has a fallback option of "Sans-Serif". This font was chosen as it is aesthetially pleasing and is easy to read for the user. Google Fonts was used to aquire this font.
+The font chosen for this website was "Raleway" for all headings and body text with a fallback option of "Sans-Serif". This font was chosen as it is aesthetially pleasing and is easy to read for the user. Google Fonts was used to aquire this font.
 
 * Colour Scheme
 
@@ -120,7 +120,7 @@ The colour scheme chosen for the website consists of navy (#000080) and beige (#
 ## **Features**
 
 The Movie Quiz was responsively designed with the user in mind in that it is a very
-welcoming and easy to use website. Users will instantly be able to naigate throughout the site
+welcoming and easy to use website. Users will instantly be able to navigate throughout the site
 easily and all interactive features such as the quiz answers and buttons are very user friendly. 
 
 ### Existing Features:
@@ -130,7 +130,7 @@ easily and all interactive features such as the quiz answers and buttons are ver
 * Large Call To Action Buttons
 
 These Call To Action Buttons can be found on each page. They are large in size and easily recognisible to the user that they are to be clicked and
-are used to easily navigate between different sections if desired. They are a quick way for the user to either begin the quiz or restart quiz and return to the homepage. They are bright in colour and when hovered over they change background and font colour.
+are used to easily navigate between different sections if desired. They are a quick way for the user to either begin or restart quiz and return to the homepage. They are bright in colour and when hovered over they change background and font colour.
 
 <br>
 
@@ -146,7 +146,7 @@ This can be found on the main quiz hompage and can be viewed instanstly upon loa
 
 #### Quiz Question:
 
-Once the user begins the quiz by pressing the start button they will instantly be presented with the first question. It is based at the very top of each question page and must be read before then proceeding to the answer options. The user will be presented with 5 questions in total which are selected ramdonly the list of available questions.
+Once the user begins the quiz by pressing the start button they will instantly be presented with the first question. It is based at the very top of each question page and must be read before then proceeding to the answer options. The user will be presented with 5 questions in total which are selected randomly from the list of available questions.
 
 <br>
 
@@ -162,7 +162,7 @@ Directly below each question is listed the quiz question number. This number is 
 
 #### Quiz Answer Option Buttons:
 
-Once the user is presented with a quiz question the will also see four large answer buttons in front of them. These questions are multiple choice and only one answer is correct. They must chhose one answer to proceed to the next question. If they choose the correct answer the button will trun green and the font will also change colour. An incorrect answer will turn red. After choosing an answer the next question will then automatically be presented. A delay of 1.5 seconds is allowed to give the user ample time to process if they choose the correct answer.
+Once the user is presented with a quiz question they will also see four large answer buttons in front of them. These questions are multiple choice and only one answer is correct. They must choose one answer to proceed to the next question. If they choose the correct answer the button will turn green and the font will also change colour. An incorrect answer will turn red. After choosing an answer the next question will then automatically be presented. A delay of 1.5 seconds is allowed to give the user ample time to process if they choose the correct answer.
 
 <br>
 
@@ -188,7 +188,7 @@ Once the user has answered their fifth and final question they will then be take
 
 * Expand on the list of questions that is available to the user. At present there are only 10 questions available and a much bigger list would make it less likely than they would receive the same question when they attempt the quiz for a second or third time.
 
-* Make use of progress bar. At present the user can view their progress via text (ie question 2 of 5) but using a progress bar as either and addition or an alternative but make for a more pleasant experience.
+* Make use of progress bar. At present the user can view their progress via text (ie question 2 of 5) but using a progress bar as either an addition or an alternative would make for a more pleasant experience.
 
 * Incorporate a timer into the quiz questions thus making it more challenging for the user. Allowing them only 10 seconds etc to select an answer would make it much more rewarding once the correct answer is chosen.
 
@@ -196,7 +196,7 @@ Once the user has answered their fifth and final question they will then be take
 
 * Allow the users to create a username and have a login section. This would allow the user to create an account when they play the quiz for the first time and then they would log in every time they return where their previous scores etc could be viewed.
 
-* Incorporate a highest scores section. Once the user logs in and plays the quiz their score would registered and a top scorers list would be kept of all players. Having such a section make help create a lot of returning users as they try to get top spot on the list and mnake for a much more enjoyable experience.
+* Incorporate a highest scores section. Once the user logs in and plays the quiz their score would be registered and a top scorers list would be kept of all players. Having such a section make help create a lot of returning users as they try to get top spot on the list and make for a much more enjoyable and challenging experience.
 
 * Create a contact section to allow for user feedback and this could also incorporate social media contacts etc.
 
@@ -221,7 +221,7 @@ Once the user has answered their fifth and final question they will then be take
 
 ### Code Validation:
 
-* The code from this website has been validated using the [W3C HTML Validator](https://validator.w3.org/) to ensure that it complies with the standards set by the W3 Consortium.
+* The HTML code from this website has been validated using the [W3C HTML Validator](https://validator.w3.org/) to ensure that it complies with the standards set by the W3 Consortium.
 * All three pages (index.html, quiz.html and final.html) have been tested and all have come back 100% clear of errors. Quiz.html and final.html shows a warning regarding an empty heading but this is left empty to allow the JavaScript code to run correctly on both pages.
 * The CSS code has been validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure that its complies with all relevant standards and it has come back 100% clear of all errors and warnings.
 * The JavaScript code has been validated using [JSHint](https://jshint.com/) and has come back clear of errors but some warnings are present.
@@ -249,7 +249,7 @@ Note: Safari was not available to the developer during this browser compatabilit
     * The use of **bright contasting colours**, **nice fonts**, **large text** and **buttons** allow for a positive and pleasant experience.
 
 * As a movie fan I want to be able to play a **fun** and **interactive** quiz.
-    * The **variety of questions** available combined with its **interactive buttons** and **updating scores** allow for a unique experience.
+    * The **variety of questions** available combined with its **interactive buttons** and **updating scores** allow for an enjoyable experience.
 
 * As a movie fan I want its **functionality** to be clear from the outset.
     * The clear concise **instructions** given combined with **large buttons** throughout the site allow the movie fan to understand how the site functions from the outset.
@@ -258,7 +258,7 @@ Note: Safari was not available to the developer during this browser compatabilit
     * The **questions** in this quiz are **challenging** and the fact that they are **randominized** means that every time the movie fan plays the quiz they will have a new challenge.
 
 * As a movie fan I want to be able to **keep track** of how many **questions** are in the quiz.
-    * This is possible via the **text** that is **visible** at all times **about the answer options**. It updates after every question.
+    * This is possible via the **text** that is **visible** at all times **above the answer options**. It updates after every question.
 
 * As a movie fan I want to be able to **keep track of my score** as I progress.
     * The **total score** is **updated** after every **correct answer**. A correct answer turns green and the score is updated. An incorrect answer will turn red and no score change will occur.
@@ -281,7 +281,7 @@ While testing this website, good use was made of Chrome Dev Tools. One feature t
 
 * Resolved Bugs
 
-1. When playing this quiz on a desktop unit the answers for each question will increase in scale slighly when hovered upon. When using a mobile device (as it is touch screen) hover is not possible. This has meant that when the user selects an answer that option is currently staying enlarged when the next question is loaded. This enlargment is size will go away if the user touches somehwere else on screen but it is not feasible to expect the user to do this every time. To resolve this issue this enlargement is now only available on larger screen sizes.
+1. When playing this quiz on a desktop unit the answers for each question will increase in scale slighly when hovered upon. When using a mobile device (as it is touch screen) hover is not possible. This has meant that when the user selects an answer that option is currently staying enlarged when the next question is loaded. This enlargment in size will go away if the user touches somehwere else on screen but it is not feasible to expect the user to do this every time. To resolve this issue this enlargement is now only available on larger screen sizes.
 
 * Unresolved Bugs
 
