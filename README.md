@@ -74,7 +74,7 @@ It was designed using the 5 principles of UX Design (strategy, scope, structure,
 ### User Stories:
 
 * As a movie fan I want to be able to understand the websites purpose instantly upon loading it.
-* As a movie fan I want to view an aethetically pleasing website.
+* As a movie fan I want to view an aesthetically pleasing website.
 * As a movie fan I want to be able to play a fun and interactive quiz.
 * As a movie fan I want its functionality to be clear from the outset.
 * As a movie fan I want a challenging quiz.
@@ -101,13 +101,13 @@ Wireframes were an integral part of the design process for this website. They we
 
 ### Site Structure:
 
-The Movie Quiz consists of three seperate pages i.e. Home page, the Quiz page and the final results page. The home page is the default landing page and the quiz page can be assessed once the user clicks on the start quiz button. The final results page can only be assessed once the user has completed the quiz. At all times the user has the option of returning to the homepage via the large restart button making navigation very accessible.
+The Movie Quiz consists of three seperate pages i.e. Home page, the Quiz page and the final results page. The home page is the default landing page and the quiz page can be assessed once the user clicks on the start button. The final results page can only be assessed once the user has completed the quiz. At all times the user has the option of returning to the homepage via the large restart button making navigation very accessible.
 
 ### Design Choices:
 
 * Typography
 
-The font chosen for this website was "Raleway" for all headings and body text with a fallback option of "Sans-Serif". This font was chosen as it is aesthetially pleasing and is easy to read for the user. Google Fonts was used to aquire this font.
+The font chosen for this website is "Raleway" for all headings and body text with a fallback option of "Sans-Serif". This font was chosen as it is aesthetially pleasing and is easy to read for the user. Google Fonts was used to aquire this font.
 
 * Colour Scheme
 
@@ -138,7 +138,7 @@ are used to easily navigate between different sections if desired. They are a qu
 
 #### Quiz Rules:
 
-This can be found on the main quiz hompage and can be viewed instanstly upon loading. It gives the user a quick rundown of how the quiz functions and what the user can expect once they begin the quiz.
+This can be found on the main quiz homepage and can be viewed instantly upon loading. It gives the user a quick rundown of how the quiz functions and what the user can expect once they begin the quiz.
 
 <br>
 
@@ -211,7 +211,7 @@ Once the user has answered their fifth and final question they will then be take
 * [CSS3](https://www.w3.org/) - Used to provide the website's styling.
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Used to provide the website's interactivity.
 * [Github](https://github.com/) - This was used to host and deploy the website.
-* [Gitpod](https://www.gitpod.io/) - Provided the developement environment for the website.
+* [Gitpod](https://www.gitpod.io/) - Provided the development environment for the website.
 
 <br>
 
@@ -222,7 +222,7 @@ Once the user has answered their fifth and final question they will then be take
 ### Code Validation:
 
 * The HTML code from this website has been validated using the [W3C HTML Validator](https://validator.w3.org/) to ensure that it complies with the standards set by the W3 Consortium.
-* All three pages (index.html, quiz.html and final.html) have been tested and all have come back 100% clear of errors. Quiz.html and final.html shows a warning regarding an empty heading but this is left empty to allow the JavaScript code to run correctly on both pages.
+* All three pages (index.html, quiz.html and final.html) have been tested and all have come back 100% clear of errors. Quiz.html and final.html show a warning regarding an empty heading but this is left empty to allow the JavaScript code to run correctly on both pages.
 * The CSS code has been validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure that its complies with all relevant standards and it has come back 100% clear of all errors and warnings.
 * The JavaScript code has been validated using [JSHint](https://jshint.com/) and has come back clear of errors but some warnings are present.
 * The Images below show the HTML validation results (top - no errors on all three pages) and CSS validation results (bottom).
@@ -245,7 +245,7 @@ Note: Safari was not available to the developer during this browser compatabilit
 * As a movie fan I want to be able to **understand** the websites **purpose instantly** upon loading it.
     * Instantly upon loading the site, the **title Movie Quiz** is visible and below it are a series of very clear and easy to understand **instructions**. These combine to instantly convey the purpose of the site.
 
-* As a movie fan I want to view an **aethetically pleasing** website.
+* As a movie fan I want to view an **aesthetically pleasing** website.
     * The use of **bright contasting colours**, **nice fonts**, **large text** and **buttons** allow for a positive and pleasant experience.
 
 * As a movie fan I want to be able to play a **fun** and **interactive** quiz.
@@ -255,7 +255,7 @@ Note: Safari was not available to the developer during this browser compatabilit
     * The clear concise **instructions** given combined with **large buttons** throughout the site allow the movie fan to understand how the site functions from the outset.
 
 * As a movie fan I want a **challenging** quiz.
-    * The **questions** in this quiz are **challenging** and the fact that they are **randominized** means that every time the movie fan plays the quiz they will have a new challenge.
+    * The **questions** in this quiz are **challenging** and the fact that they are **randomized** means that every time the movie fan plays the quiz they will have a new challenge.
 
 * As a movie fan I want to be able to **keep track** of how many **questions** are in the quiz.
     * This is possible via the **text** that is **visible** at all times **above the answer options**. It updates after every question.
