@@ -19,6 +19,8 @@
  * Url: https://www.codingninjas.com/blog/2020/11/03/how-to-create-a-quiz-in-javascript/
 */
 
+/* jshint esversion: 6 */
+
 // Declaring Constants And Variables
 const question = document.getElementById("question-title");
 const options = Array.from(document.getElementsByClassName("answer"));

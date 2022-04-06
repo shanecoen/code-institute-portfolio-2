@@ -19,6 +19,8 @@
  * Url: https://www.codingninjas.com/blog/2020/11/03/how-to-create-a-quiz-in-javascript/
 */
 
+/* jshint esversion: 6 */
+
 /* Declaring Constants For Final Score 
 To Be Shown On Final Page */
 const finalScore = document.getElementById('finalscore');
